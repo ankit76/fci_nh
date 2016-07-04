@@ -1,0 +1,15 @@
+ $FCI NORB=6,NELEC=6,
+  NROOT=4
+  MEMORY=5000000
+  ISYM=1
+  ORBSYM=1,2,1,2,1,2,
+  mult=1,2,2,1
+  ONEFIL='ONEINT001.DAT'
+  TWOFIL='TWOINT001.DAT'
+ $END
+Data for IOPER should include 1 for each of the symmetry operations present
+below at the corresponding array location.
+
+1      2        3       4       5        6       7      8
+
+E    YZ-ref.  XZ-ref.  C2(Z)   XY-ref.  C2(Y)   C2(X)  I-inversion

@@ -1,0 +1,23 @@
+STOP Insufficient memory
+ PROGRAM * FCI  (Determinant based Full CI)     Author: P.J. Knowles, 1984
+
+ lenn,mem     8000000     8000000
+ Variable memory set to    8000000 words
+ Active orbitals:             14( 7 7 0 0 0 0 0 0)
+ Active electrons:            14
+ Spin quantum number:          0.0
+ Orbital pairs:                  56    49     0     0     0     0     0     0
+ Strings:                      1716  1716     0     0     0     0     0     0
+                               1716  1716     0     0     0     0     0     0
+ Determinants:                    5889312     5889312           0           0
+                                        0           0           0           0
+ sr inpint: done reading integrals
+ Core energy:                    301.838981878838
+
+ Space symmetry:               1
+ Maximum iterations:         500
+ Convergence threshold:         0.0000010
+ Output threshold:              0.0500000
+ Number of roots:              1
+ insufficient memory available - require      5889312  have      2104647
+ the request was for real words

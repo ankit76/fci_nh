@@ -1,0 +1,14 @@
+ PROGRAM * FCI  (Determinant based Full CI)     Author: P.J. Knowles, 1984
+
+ lenn,mem      500002      500000
+ Variable memory set to     500000 words
+ Active orbitals:              4( 2 2 0 0 0 0 0 0)
+ Active electrons:             4
+ Spin quantum number:          0.0
+ Orbital pairs:                   6     4     0     0     0     0     0     0
+ Strings:                         2     4     0     0     0     0     0     0
+                                  2     4     0     0     0     0     0     0
+ Determinants:                         20          16           0           0
+                                        0           0           0           0
+ sr inpint: 1-elec. integral file not found
+ file nameONEINT001.DAT                                                           

@@ -1,0 +1,376 @@
+ PROGRAM * FCI  (Determinant based Full CI)     Author: P.J. Knowles, 1984
+
+ lenn,mem     5000002     5000000
+ Variable memory set to    5000000 words
+ Active orbitals:              4( 2 2 0 0 0 0 0 0)
+ Active electrons:             4
+ Spin quantum number:          0.0
+ Orbital pairs:                   6     4     0     0     0     0     0     0
+ Strings:                         2     4     0     0     0     0     0     0
+                                  2     4     0     0     0     0     0     0
+ Determinants:                         20          16           0           0
+                                        0           0           0           0
+ sr inpint: done reading integrals
+ Core energy:                     36.730218786183
+
+ Space symmetry:               1
+ Maximum iterations:         ***
+ Convergence threshold:         0.0000000
+ Output threshold:              0.0500000
+ Number of roots:              5
+
+ HAA
+   1-  4  -22.811477  -19.485999  -16.150742  -15.012220
+
+                                                     INTJAA
+
+
+                1             2             3             4
+
+
+         1     7.7312021     7.2897220     7.2897220     7.7312021
+         2     7.2897220     7.1844632     7.1844632     7.2897220
+         3     7.2897220     7.1844632     7.1844632     7.2897220
+         4     7.7312021     7.2897220     7.2897220     7.7312021
+
+                                                     INTKAA
+
+
+                1             2             3             4
+
+
+         1     7.7312021     1.8397602     0.8678223     0.6912153
+         2     1.8397602     7.1844632     1.2379542     0.8678223
+         3     0.8678223     1.2379542     7.1844632     1.8397602
+         4     0.6912153     0.8678223     1.8397602     7.7312021
+ ISYMB,ISYMA,NSA,NSB            1           1           2           2
+ ISYMB,ISYMA,NSA,NSB            2           2           4           4
+ ISYMB,ISYMA,NSA,NSB            3           3           0           0
+ ISYMB,ISYMA,NSA,NSB            4           4           0           0
+ ISYMB,ISYMA,NSA,NSB            5           5           0           0
+ ISYMB,ISYMA,NSA,NSB            6           6           0           0
+ ISYMB,ISYMA,NSA,NSB            7           7           0           0
+ ISYMB,ISYMA,NSA,NSB            8           8           0           0
+
+ DIAGONAL ELEMENTS
+   1- 10  -35.585529  -31.833996  -31.833996  -26.657529  -44.199918  -37.589375  -37.589375  -31.833996  -37.589375  -30.642611
+  11- 20  -31.833996  -26.454862  -37.589375  -31.833996  -30.642611  -26.454862  -31.833996  -26.454862  -26.454862  -21.930891
+ Timing: Hamiltonian diag. els.     Operations        1860     Time      0.00     Mflops     7.209
+
+ DIAGONAL ELEMENTS
+   1- 10  -35.585529  -31.833996  -31.833996  -26.657529  -44.199918  -37.589375  -37.589375  -31.833996  -37.589375  -30.642611
+  11- 20  -31.833996  -26.454862  -37.589375  -31.833996  -30.642611  -26.454862  -31.833996  -26.454862  -26.454862  -21.930891
+
+ Initial configuration generated:
+       5      1.0000000     -7.4696996
+
+ It  Tr    CPU  Convergence   Energy
+
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10    0.000000    0.000000    0.000000    0.000000    1.000000    0.000000    0.000000    0.000000    0.000000    0.000000
+  11- 20    0.000000    0.000000    0.000000    0.000000    0.000000    0.000000    0.000000    0.000000    0.000000    0.000000
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Matrix multiply     Operations         104     Time      0.00     Mflops     0.000     Av. % sparsity    95
+ Timing: Other               Operations         184     Time      0.00     Mflops     1.720
+ Timing: Total               Operations         768     Time      0.00     Mflops     7.178
+
+ S RETURNED BY SIGMA
+   1- 10    1.237954    0.608195    0.608195    0.691215  -44.199918    0.000009   -0.000009   -0.259628    0.000009    0.867822
+  11- 20    0.867822    0.000000   -0.000009    0.867822    0.867822    0.000000   -0.259628    0.000000    0.000000    0.000000
+  1   1    0.0  1.00000000     -7.469699612
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10    0.670266    0.229395    0.229395    0.183777    0.000000    0.000006   -0.000006   -0.097925    0.000006    0.298555
+  11- 20    0.327319    0.000000   -0.000006    0.327319    0.298555    0.000000   -0.097925    0.000000    0.000000    0.000000
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops    60.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops    40.003     Av. v length     3
+ Timing: Matrix multiply     Operations        1808     Time      0.00     Mflops    48.865     Av. % sparsity     7
+ Timing: Other               Operations         184     Time      0.00     Mflops     2.165
+ Timing: Total               Operations        2472     Time      0.00     Mflops    16.591
+
+ S RETURNED BY SIGMA
+   1- 10  -24.641741   -8.274016   -8.274016   -5.689029    2.372966    0.160907   -0.160907    3.113580    0.160907   -8.887653
+  11- 20  -11.387595    0.342826   -0.160907  -11.387595   -8.887653   -0.342826    3.113580    0.342826   -0.342826    2.106984
+  2   2    0.0  0.97314469     -8.031017178      2.561997851
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10   -0.525903   -0.054147   -0.054147    0.196232    0.000000    0.090104   -0.090104   -0.106710    0.090104    0.478912
+  11- 20    0.052563    0.075108   -0.090104    0.052563    0.478912   -0.075108   -0.106710    0.075108   -0.075108    0.370138
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Matrix multiply     Operations        1808     Time      0.00     Mflops     0.000     Av. % sparsity     7
+ Timing: Other               Operations         184     Time      0.00     Mflops     0.000
+ Timing: Total               Operations        2472     Time      0.00     Mflops     0.000
+
+ S RETURNED BY SIGMA
+   1- 10   20.867299    0.507303    0.507303   -3.456407    0.396595   -3.985311    3.985311    2.095873   -3.985311  -14.785223
+  11- 20   -1.588570   -2.322529    3.985311   -1.588570  -14.785223    2.322529    2.095873   -2.322529    2.322529   -7.507794
+  3   3    0.0  0.83275193     -8.042403296      0.366652034      7.540582937
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10    0.288625   -0.314474   -0.314474    0.246301    0.000000   -0.293990    0.293990   -0.141286   -0.293990   -0.014621
+  11- 20   -0.173189    0.026922    0.293990   -0.173189   -0.014621   -0.026922   -0.141286    0.026922   -0.026922    0.457476
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Matrix multiply     Operations        1808     Time      0.00     Mflops     0.000     Av. % sparsity     7
+ Timing: Other               Operations         184     Time      0.00     Mflops     0.000
+ Timing: Total               Operations        2472     Time      0.00     Mflops    22.889
+
+ S RETURNED BY SIGMA
+   1- 10   -9.972638    9.285320    9.285320   -5.079051   -0.107589   11.630080  -11.630080    4.953241   11.630080    3.882273
+  11- 20    4.332079   -1.731659  -11.630080    4.332079    3.882273    1.731659    4.953241   -1.731659    1.731659  -10.228719
+  4   4    0.0  0.64549535     -8.043638814     -1.813210725      2.525763908     12.400737071
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10    0.343637   -0.141549   -0.141549    0.192672    0.000000    0.367354   -0.367354    0.085572    0.367354   -0.059225
+  11- 20   -0.227120   -0.090538   -0.367354   -0.227120   -0.059225    0.090538    0.085572   -0.090538    0.090538    0.327576
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Matrix multiply     Operations        1808     Time      0.00     Mflops     0.000     Av. % sparsity     7
+ Timing: Other               Operations         184     Time      0.00     Mflops     1.333
+ Timing: Total               Operations        2472     Time      0.00     Mflops    14.802
+
+ S RETURNED BY SIGMA
+   1- 10   -9.396546    2.442549    2.442549   -3.097707   -0.155009  -12.789689   12.789689   -2.808883  -12.789689    3.514443
+  11- 20    5.251433    1.354525   12.789689    5.251433    3.514443   -1.354525   -2.808883    1.354525   -1.354525   -7.202514
+  5   4    0.0  0.67237491     -8.044871613     -2.528547188      1.368039665      5.874560550     15.687638937
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10    0.007248   -0.006445   -0.006445    0.101056    0.000000   -0.109594    0.109594    0.242930   -0.109594    0.318800
+  11- 20   -0.249375   -0.320293    0.109594   -0.249375    0.318800    0.320293    0.242930   -0.320293    0.320293   -0.292548
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Matrix multiply     Operations        1808     Time      0.00     Mflops     0.000     Av. % sparsity     7
+ Timing: Other               Operations         184     Time      0.00     Mflops     0.000
+ Timing: Total               Operations        2472     Time      0.00     Mflops     0.000
+
+ S RETURNED BY SIGMA
+   1- 10    1.669210   -2.215244   -2.215244    0.583683    0.065333    3.939957   -3.939957   -7.891101    3.939957   -9.576743
+  11- 20    5.675857    7.950629   -3.939957    5.675857   -9.576743   -7.950629   -7.891101    7.950629   -7.950629    7.307524
+  6   5    0.0  0.74545567     -8.046210373     -2.583105922      1.274779232      4.001608239     10.648088858
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10   -0.037615   -0.324110   -0.324110    0.330135    0.000000    0.082304   -0.082304   -0.393367    0.082304   -0.015310
+  11- 20    0.069257   -0.053362   -0.082304    0.069257   -0.015310    0.053362   -0.393367   -0.053362    0.053362   -0.566991
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Matrix multiply     Operations        1808     Time      0.00     Mflops     0.000     Av. % sparsity     7
+ Timing: Other               Operations         184     Time      0.00     Mflops     0.000
+ Timing: Total               Operations        2472     Time      0.00     Mflops    13.290
+
+ S RETURNED BY SIGMA
+   1- 10    1.316878    8.623277    8.623277   -9.233964    0.085278   -2.413954    2.413954   12.513474   -2.413954    2.173957
+  11- 20   -3.890197    1.061614    2.413954   -3.890197    2.173957   -1.061614   12.513474    1.061614   -1.061614   12.850075
+  7   5    0.0  0.65308258     -8.047960709     -2.655544046      1.229676204      3.282345229      6.802929015
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10    0.240486   -0.138988   -0.138988   -0.211446    0.000000    0.025263   -0.025263    0.130496    0.025263    0.240169
+  11- 20   -0.269484    0.331299   -0.025263   -0.269484    0.240169   -0.331299    0.130496    0.331299   -0.331299   -0.350098
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Matrix multiply     Operations        1808     Time      0.00     Mflops     0.000     Av. % sparsity     7
+ Timing: Other               Operations         184     Time      0.00     Mflops     3.228
+ Timing: Total               Operations        2472     Time      0.00     Mflops     6.791
+
+ S RETURNED BY SIGMA
+   1- 10   -6.497962    3.154214    3.154214    6.252277   -0.136149   -0.699910    0.699910   -4.454145   -0.699910   -6.871259
+  11- 20    7.608359   -8.538696    0.699910    7.608359   -6.871259    8.538696   -4.454145   -8.538696    8.538696    6.493031
+  8   5    0.0  0.39844742     -8.050144470     -2.697011154      1.224586417      3.143997576      5.925995678
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            1           1           0           2           2
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            2           2           4           4           4
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            3           3          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            4           4          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            5           5          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            6           6          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            7           7          20           0           0
+ ISYMB,ISYMA,NNCI,NSTRA,NSTRB            8           8          20           0           0
+
+ c passed to sigma
+   1- 10    0.116092   -0.185588   -0.185588   -0.816101    0.000000    0.032846   -0.032846   -0.233005    0.032846    0.135048
+  11- 20    0.047417   -0.142275   -0.032846    0.047417    0.135048    0.142275   -0.233005   -0.142275    0.142275    0.129523
+ Timing: String c. coeff     Operations           0     Time      0.00     Mflops     0.000
+ Timing: Coupl coeffs(A)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Coupl coeffs(B)     Operations         240     Time      0.00     Mflops     0.000     Av. v length     3
+ Timing: Matrix multiply     Operations        1808     Time      0.00     Mflops     0.000     Av. % sparsity     7
+ Timing: Other               Operations         184     Time      0.00     Mflops     0.000
+ Timing: Total               Operations        2472     Time      0.00     Mflops     0.000
+
+ S RETURNED BY SIGMA
+   1- 10   -3.336691    5.543636    5.543636   23.005048   -0.208448   -0.902276    0.902276    6.530551   -0.902276   -4.335605
+  11- 20   -0.986915    4.181944    0.902276   -0.986915   -4.335605   -4.181944    6.530551    4.181944   -4.181944   -3.214379
+  9   4    0.0  0.08057343     -8.052879914     -2.699489559      1.220429293      3.110539598      5.925949335
+ State 1     Energy     -8.052879914435
+ Correlation energy     -0.583180301998
+
+ Final CI vector
+
+      -0.164020770562************
+      -0.059813079095************
+      -0.059813079095************
+      -0.052589595891************
+       0.970200341324************
+      -0.056411540455************
+      -0.082838645002************
+      -0.082838645003************
+      -0.056411540455************
+ /EOF
+ State 2     Energy     -2.699489559264
+
+ Final CI vector
+
+       0.597059365267************
+      -0.096306745481************
+      -0.096306745481************
+       0.095937504016************
+       0.088676284447************
+      -0.328017872629************
+       0.328017872629************
+      -0.149994716502************
+      -0.328017872630************
+      -0.251406177400************
+       0.053687971021************
+       0.328017872627************
+       0.053687971021************
+      -0.251406177400************
+      -0.149994716502************
+ /EOF
+ State 3     Energy      1.220429293429
+
+ Final CI vector
+
+       0.629847841822************
+       0.193895975462************
+       0.193895975462************
+       0.122419770473************
+       0.171335557150************
+       0.305286549631************
+      -0.305286549630************
+       0.305286549629************
+       0.221581833175************
+      -0.305286549633************
+       0.221581833175************
+      -0.093584183727************
+ /EOF
+ State 4     Energy      3.110539598297
+
+ Final CI vector
+
+       0.161746074438************
+       0.296319013238************
+       0.296319013238************
+      -0.170515538055************
+       0.118993136767************
+      -0.202092131461************
+       0.202092131458************
+       0.227459113104************
+      -0.202092131455************
+       0.469431038486************
+       0.068859900134************
+      -0.080751073933************
+       0.202092131469************
+       0.068859900134************
+       0.469431038485************
+       0.080751073933************
+       0.227459113104************
+      -0.080751073932************
+       0.080751073933************
+      -0.108884557985************
+ /EOF
+ State 5     Energy      5.925949335092
+
+ Final CI vector
+
+      -0.320538483466************
+       0.312875143037************
+       0.076374068012************
+      -0.053138033226************
+       0.053138033226************
+      -0.420845460951************
+      -0.053138033226************
+       0.173777836340************
+       0.404940805743************
+      -0.051894995340************
+       0.053138033225************
+       0.404940805743************
+       0.173777836340************
+       0.051894995340************
+      -0.420845460951************
+      -0.051894995340************
+       0.051894995340************
+      -0.168478359199************
+ /EOF
+ Variable memory released
